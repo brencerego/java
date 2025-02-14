@@ -1,4 +1,4 @@
-package Oddeven;
+package brence;
 
 import java.util.Scanner;
 
