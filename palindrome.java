@@ -1,4 +1,4 @@
-package palindrome;
+package brence;
 import java.util.Scanner;
 
 public class Palindrome { 
