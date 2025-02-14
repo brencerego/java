@@ -1,4 +1,4 @@
-package armstrong;
+package brence;
 
 import java.util.Scanner;
 
