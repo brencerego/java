@@ -2,7 +2,7 @@ package armstrong;
 
 import java.util.Scanner;
 
-public class armstrong {
+public class Armstrong {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
