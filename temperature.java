@@ -1,7 +1,6 @@
 package brence;
 import java.util.Scanner;
 public class Temperature {
-    // convert from celcius to fahrenheit and vice versa
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
             System.out.println("What do you want to convert:\n1. Celsius into Farenheight(type 1)\n2. Fraenheight into Celcius(type 2)\nInput:");
