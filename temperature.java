@@ -1,3 +1,4 @@
+package brence;
 import java.util.Scanner;
 public class Temperature {
     // convert from celcius to fahrenheit and vice versa
@@ -19,8 +20,6 @@ public class Temperature {
                 System.out.println(fahrenheit + "°F is " + celsius + "°C");
             }
         }
-
-        }
+    }
 }
-
 
