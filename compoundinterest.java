@@ -16,3 +16,4 @@ public class Compound {
 	scanner.close();
         }
 }
+
