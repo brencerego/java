@@ -1,50 +1,25 @@
-package brence;
 import java.util.Scanner;
-class PersonInfo
-{
-	String name;
-	short age;
-	public PersonInfo()
-	{
-		name ="";
-		age = 0;
-	}
+public class Person {
+    private String name;
+    private int age;
 	
- public PersonInfo(String n , short a)
-	{
-		name = n;
-		age = a;
-	}
-	
- public void display()
-	{
-		System.out.println(name+" is " + age + " years old.");
-	}
-	
- public void read()
-	{
-		Scanner s = new Scanner(System.in);
-		System.out.print("Enter the Name:");
-		name = s.next();
-		System.out.print("Enter the Age:");
-		age = s.nextShort();
-	}
-}
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+    
+     public void displayInfo() {
+         System.out.println("Name: " + name);
+	 System.out.println("Age: " + age);
+    }
 
-public class Person
-{
-	public static void main(String[]args)
-	{
-		PersonInfo p1 = new PersonInfo("Nobody",(short)15);
-		p1.display();
-		PersonInfo p2 = new PersonInfo("Somebody",(short)21);
-		p2.display();
-		PersonInfo p3 = new PersonInfo();
-		p3.read();
-		p3.display();
-		PersonInfo p4 = new PersonInfo();
-		p4.read();
-		p4.display();
-		
-	}
+     public static void main(String[] args) {
+        Scanner s = new Scanner (System.in)
+	System.out.print("Enter the Name");
+	String name = s.next()
+	System.out.print("Enter the Name:");
+	int age= s.nextInt();
+	Person person = new Person(name,age);
+	person.displayDetails();
+    }
 }
