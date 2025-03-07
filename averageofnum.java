@@ -11,7 +11,7 @@ public class Main {
       n = sc.nextInt();  
       while (count <= n)   
              {   
-                  System.out.print("Enter the "+count+ " number? ");  
+                  System.out.print("Enter the "+count+ " number: ");  
                   x = sc.nextInt();  
                   sum+=x;   
                   ++count;   
