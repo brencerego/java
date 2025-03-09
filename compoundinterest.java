@@ -5,7 +5,7 @@ import java.lang.Math;
 public class Compound { 
     public static void main(String[] args) {  
         Scanner sr = new Scanner(System.in);
-        System.out.print("Enter Principal Amount:");
+        System.out.print("Enter Principle Amount:");
 	int P = sr.nextInt();
 	System.out.print("Enter Rate of Interest:");
 	double R = sr.nextDouble();
