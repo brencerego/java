@@ -16,7 +16,7 @@ public class Circle {
 
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.print("enter the radius");
+        System.out.print("Enter the radius");
         int radius=sc.nextInt();
         Circle circle = new Circle(radius);
         System.out.println("Area: " + circle.getArea());
