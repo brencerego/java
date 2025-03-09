@@ -17,7 +17,7 @@ public class Person {
         Scanner s = new Scanner (System.in)
 	System.out.print("Enter the Name");
 	String name = s.next()
-	System.out.print("Enter the Name:");
+	System.out.print("Enter the Age:");
 	int age= s.nextInt();
 	Person person = new Person(name,age);
 	person.displayDetails();
